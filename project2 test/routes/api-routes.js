@@ -18,7 +18,13 @@ module.exports = function(app) {
     console.log(req.body);
     db.User.create({
       email: req.body.email,
-      password: req.body.password
+      password: req.body.password,
+      firstName: req.body.firstName,
+      lastName: req.body.lastName,
+      dateOfBirth: req.body.dateOfBirth,
+      height: req.body.height,
+      currentWeight: req.body.currentWeight,
+      goalWeight: req.body.goalWeight
     }).then(function(data) {
       console.log('===== db enter ======')
       console.log(data)

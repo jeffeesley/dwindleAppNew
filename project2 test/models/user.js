@@ -17,9 +17,33 @@ module.exports = function(sequelize, DataTypes) {
     password: {
       type: DataTypes.STRING,
       allowNull: false
+    },
+    firstName: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    lastName: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    dateOfBirth: {
+      type: DataTypes.DATEONLY,
+      allowNull: false
+    },
+    height: {
+      type: DataTypes.INTEGER,
+      allowNull: false
+    },
+    currentWeight: {
+      type: DataTypes.INTEGER,
+      allowNull: false
+    },
+    goalWeight: {
+      type: DataTypes.INTEGER,
+      allowNull: false
     }
   },{
-   
+ 
     hooks: {
       beforeCreate: function(user, options, cb) {
         user.password = bcrypt.hashSync(user.password, bcrypt.genSaltSync(10), null);
