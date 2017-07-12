@@ -18,7 +18,7 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
     font-size:60px;
     height: 56px;
     line-height: 56px;
-    color:#311b92;
+    color:#183059;
 }
 
 
@@ -29,9 +29,9 @@ overflow:visible;
 }
 
 .main-menu {
-background:red;
+background:#F03A47;
 border-right:1px solid #e5e5e5;
-position:absolute;
+position:fixed;
 top:0;
 bottom:0;
 height:100%;
