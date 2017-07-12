@@ -5,9 +5,9 @@ nav .brand-logo {
   font-size: 40px;
 }
 
-body{
+/*body{
   background-color: #F6F4F3;
-}
+}*/
 
 .navBackground {
   background-color: #F03A47;
@@ -66,31 +66,35 @@ h5{
   font-family: 'Vibur', cursive;
 }
 
-#username{
+#firstName-input{
   color: #183059;
 }
 
-#firstName{
+#lastName-input{
   color: #183059;
 }
 
-#email{
+#email-input{
   color: #183059;
 }
 
-#password{
+#password-input{
   color: #183059;
 }
 
-#height{
+#height-input{
   color: #183059;
 }
 
-#currentWeight{
+#datePicker-input{
   color: #183059;
 }
 
-#goalWeight{
+#currentWeight-input{
+  color: #183059;
+}
+
+#goalWeight-input{
   color: #183059;
 }
 
@@ -106,16 +110,41 @@ p{
   background-color: #449DD1;
 }
 
-.dashboardContainer{
-  background-color: #AF5B5B;
+.header2{
+  font: #F6F4F3;
+  font-family: 'Roboto';
 }
 
 .navIcons{
   color: #F6F4F3;
 }
 
-.parallax{
+.dashboardContainer{
+  background-color: #449DD1;
+}
+
+.container1{
+  background-color: #F6F4F3;
+}
+
+.red.lighten-1 {
+    background-color: #183059 !important;
+}
+
+.white-text {
+    color: #F6F4F3 !important;
+}
+
+.parallax {
   background-color: #F03A47;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    display: block;
+    font-size: 24px;
+    height: 56px;
+    line-height: 56px;
+    color: #F6F4F3;
 }
 
 p {
@@ -171,3 +200,4 @@ footer.page-footer {
 .brand-logo{
   font-family: ;
 }
+Add Comment
