@@ -33,10 +33,15 @@ $(document).ready(function() {
   });
 
   
-  function signUpUser(email, password) {
+  function signUpUser(email, password, firstName, lastName, height, currentWeight, goalWeightInput) {
     $.post("/api/signup", {
       email: email,
-      password: password
+      password: password,
+      firstName: firstName,
+      lastName: lastName,
+      height: height,
+      currentWeight: currentWeight,
+      goalWeight: goalWeight
     }).then(function(data) {
       window.location.replace(data);
       // If there's an error, handle it by throwing up a boostrap alert
