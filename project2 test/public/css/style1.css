@@ -1,6 +1,51 @@
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
 
+body {
+  padding: 0;
+  margin: 0;
+  margin-top: -25px;
+}
 
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+
+h3.stats{
+    font-family: 'Vibur', cursive;
+    color: #F03A47;
+}
+
+h3.exercise{
+  font-family: 'Vibur', cursive;
+  color: #F03A47;
+  text-align: initial;
+  margin-top: -25px;
+}
+
+
+.card-panel {
+    transition: box-shadow .25s;
+    padding: 10px;
+    margin: 0.5rem 0 1rem 0;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+div.card-panel.teal{
+  background-color: #F03A47 !important;
+}
+
+.black-text{
+  color: #183059 !important;
+}
+
+img{
+  padding: 10px;
+}
 
 i.material-icons {
 position: relative;
@@ -122,7 +167,7 @@ padding:0;
 
 .main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
 color:black;
-background-color:beige;
+background-color:#F6F4F3;
 }
 .area {
 float: left;
