@@ -11,22 +11,24 @@ nav .brand-logo {
 
 /*Carousel Styles start*/
 
-card-panel {
+.card-panel {
   height:300px;
     transition: box-shadow .25s;
     padding: 24px;
     margin: .5rem 0 1rem 0;
     border-radius: 2px;
-    background-color: #F03A47 !important;
+    /*background-color: #F03A47;*/
 }
 
+.white-text{
+ font-family: 'Satisfy', cursive;
+ font-size: 35px;
+}
 #carousel{
  padding-left:25px;
  padding-right:25px;
   padding-top:20px;
   padding-bottom:20px;
-  height:400px;
-}
 
 /*Carousel Styles end*/
 
