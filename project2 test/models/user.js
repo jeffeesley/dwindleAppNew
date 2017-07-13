@@ -17,6 +17,26 @@ module.exports = function(sequelize, DataTypes) {
     password: {
       type: DataTypes.STRING,
       allowNull: false
+    },
+    firstName: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    lastName: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    height: {
+      type: DataTypes.INTEGER,
+      allowNull: false
+    },
+    currentWeight: {
+      type: DataTypes.INTEGER,
+      allowNull: false
+    },
+    goalWeight: {
+      type: DataTypes.INTEGER,
+      allowNull: false
     }
   },{
    
